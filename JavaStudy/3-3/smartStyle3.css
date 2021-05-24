@@ -1,0 +1,49 @@
+@media screen and (max-width: 497px){
+
+    .wrapper{
+        width: 200px;
+    }
+
+    .header{
+        height: 200px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+    }
+
+    .header-box{
+        width: 60px;
+        height: 160px;
+        display: flex;
+        flex-direction: column;
+        margin-right: 0;
+        
+    }
+
+    .left{
+        width: 200px;
+    }
+
+    .right{
+        width: 200px;
+        height: 210px;
+    }
+
+    .inside-right1{
+        margin-top: 20px;
+        margin-left: 25px;
+    }
+
+    .inside-right2{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+
+    .inside-right3{
+        margin-top: 10px;
+        margin-left: 25px;
+    }
+    
+
+}
+

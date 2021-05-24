@@ -1,0 +1,121 @@
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: #141f40;
+    display:flex;
+    /*flexboxを使うことの宣言*/
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.header-box{
+    width: 160px;
+    height: 60px;
+    display:flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-right: 20px;
+}
+
+.bg-white{
+    background-color: #fff
+}
+
+.bg-red{
+    background-color: #a9004b;
+}
+
+
+.item1{
+    width: 40px;
+    height: 40px;
+}
+
+
+.item2{
+    width: 40px;
+    height: 40px;
+}
+
+.item3{
+    width: 40px;
+    height: 40px;
+}
+
+
+.container{
+    height: 100px;
+    background-color: #141f40;
+    justify-content: flex-end;
+}
+
+.item{
+    justify-content: flex-end; 
+    width: 40px;
+    background-color: #fff;
+}
+
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+
+.inside-right1{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px; 
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.inside-right2{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.inside-right3{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #d98d30;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
