@@ -1,0 +1,107 @@
+.wrapper{
+    width: 400px;
+    margin: 0 auto;
+}
+
+.header{
+    height: 100px;
+    background-color: #141f40;
+    position: relative;
+}
+
+.bg-white{
+    background-color: #fff;
+}
+
+.header-box{
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    padding: 10px;
+}
+
+.inside-header-box1{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    
+}
+
+
+.inside-header-box2{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin-left: 10px;
+    float: right;
+}
+
+.inside-header-box3{
+    width: 40px;
+    height: 40px;
+    background-color: #a9004b;
+    margin-left:10px ;
+    float: right;
+}
+/*どうしてfloat:rightとか２回使ってるのに重ならないのか*/
+
+
+.left{
+    width: 150px;
+    height: 250px;
+    background-color: #80bfa8;
+    float: left;
+}
+
+.right{
+    width: 250px;
+    height: 250px;
+    background-color: #8c2727;
+    float: right;
+}
+
+.inside-right1{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px; 
+    margin-top: 40px;
+    margin-right: 60px;
+}
+
+.inside-right2{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.inside-right3{
+    width: 140px;
+    height: 40px;
+    background-color: #ff863f;
+    border: 5px solid #fff;
+    margin-left: 40px;
+    margin-top: 10px;
+    margin-right: 60px;
+}
+
+.footer{
+    height: 100px;
+    background-color: #d98d30;
+}
+
+.clearfix::after { 
+    content: '';
+    display: block; 
+    clear: both;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}

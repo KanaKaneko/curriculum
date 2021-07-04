@@ -12,5 +12,7 @@
 <div class="footer">
 <label class="footer-label">hoge.Inc</label>
 </div>
+
+
 </body>
 </html>

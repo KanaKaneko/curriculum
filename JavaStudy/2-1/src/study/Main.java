@@ -9,13 +9,14 @@ package study;
  *
  */
 public class Main {
-
     public static void main(String[] args) {
 
       //① firstNameとlastNameという名前の変数を定義し、
       //   firstNameには自分の名前、lastNameには自分の名字で初期化しなさい
     	String firstName ="Kana";
     	String lastName ="Kaneko";
+    	/*変数型の表記が最初に必要!
+    	 */
     	
         //getName関数の呼び出しと出力
         System.out.println(getName(firstName, lastName));

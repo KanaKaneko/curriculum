@@ -20,17 +20,14 @@ import java.util.*;
 <body>
 <div class="header">
  <label class="header-label">login</label>
+ 
  <label class="sdf">
- <% Date date=new Date();
+ <%Date date=new Date();
   SimpleDateFormat sdf = new SimpleDateFormat("yyyy/MM/dd");
   String formatDate=sdf.format(date);
   out.print(formatDate);%>
- 
-  
-  
  </label>
  
-  
  </div>
   
 </body>

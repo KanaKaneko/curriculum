@@ -1,0 +1,58 @@
+.wrapper{
+    width: 600px;
+    height: 800px;
+}
+
+.header{
+    height: 150px;
+    background-color: #FFFF00;
+}
+
+.low2{
+    width: 600px;
+    height: 200px;
+}
+
+.low2-1{
+    width: 200px;
+    height: 200px;
+    background-color: #33FFFF;
+    float: left;
+}
+
+.low2-2{
+    width: 200px;
+    height: 200px;
+    background-color: #FF0000;
+    float: left;
+}
+
+.low2-3{
+    width: 200px;
+    height: 200px;
+    background-color: #0000FF;
+    float: left;
+}
+
+.low3{
+    height: 200px;
+}
+
+.low3-1{
+    width: 500px;
+    height: 200px;
+    background-color: #00FF00;
+    float: left;
+}
+
+.low3-2{
+    width: 100px;
+    height: 200px;
+    background-color: #FF00FF;
+    float: left;
+}
+
+.footer{
+    height: 200px;
+    background-color: #33FFFF;
+}

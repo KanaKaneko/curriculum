@@ -1,0 +1,47 @@
+.wrapper{
+    height: 500px;
+    width: 500px;
+}
+
+.header{
+    height: 120px;
+    background-color: red;
+}
+
+.header-item{
+    height: 50px;
+    width: 250px;
+    background-color: #fff;
+    margin: ;
+}
+
+.main{
+    height: 360px;
+}
+
+.left{
+    width: 25%;
+    height: 360px;
+    background-color: blue;
+    float: left;
+}
+
+.right-left{
+    width: 50%;
+    height: 360px;
+    background-color: pink;
+    float: left;
+}
+
+.right-right{
+    width: 25%;
+    height: 360px;
+    background-color: aquamarine;
+    float: left;
+}
+
+
+.footer{
+    height: 100px;
+    background-color: coral;
+}
