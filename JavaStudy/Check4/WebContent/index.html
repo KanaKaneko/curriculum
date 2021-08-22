@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<!--どの文字コードで保存されているのか指定する属性。
+https://9lio.com/column/meta-and-charset/-->
+<title>社員情報システム</title>
+<link rel="stylesheet" type="text/css" href="./css/index.css">
+</head>
+<body>
+ <form action="/Check4/search" method="post">
+ <!--ルーティング -->
+ <!--form action:送信先の指定
+ method属性：送信するときの転送方法を指定
+  post→入力したフォーム内容はURIとは別の場所に保管されてデータが送信される。安全性が高い。
+  get→入力したフォーム内容のデータがURIにくっついて送信される。-->
+ <div class="wrapper">
+ <div class="header">社員情報システム</div>
+ <ul>
+ <!-- ID入力欄 -->
+ <li class="id">
+ <label for="id">ID</label>
+ <input type="text" name="id" value="" size="20">
+ </li>
+ <!-- パスワードを入力する欄を作成してください -->
+ <li class="pass">
+ <label for="pass">PASS</label>
+ <input type="password" name="pass" value="" size="20"> 
+ </li>
+ 
+ <li><input id="button" type="submit" name="button" value="検索">
+ <!--submit:ボタンを作る -->
+ </li>
+ </ul>
+ <div class="footer">hoge.inc</div>
+ </div>
+ </form>
+</body>
+</html>
