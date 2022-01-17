@@ -12,20 +12,30 @@ import javax.swing.JFrame;
 import javax.swing.JPanel;
 
 class ReadImage extends JPanel {
+
+	void method() {
+	OmikujiMethod a =new OmikujiMethod();
+	
+
+	try {
+        img = ImageIO.read(new File());
+    } catch (Exception e) {
+        System.out.println(e);
+        System.exit(0);
+    }
+
+	}
+	
     static final int WIDTH = 2800;  // 画面の幅
     static final int HEIGHT = 1800; // 画面の高さ
+	
     Image img; // 画像オブジェクト
  
     // コンストラクタ（初期化処理）
     public ReadImage() {
         setPreferredSize(new Dimension(WIDTH,HEIGHT));
         // 画像ファイルの読み込み
-        try {
-            img = ImageIO.read(new File("大吉.JPG"));
-        } catch (Exception e) {
-            System.out.println(e);
-            System.exit(0);
-        }
+        
     }
  
     // 画面描画
@@ -34,7 +44,7 @@ class ReadImage extends JPanel {
         g.setColor(Color.black);
         g.fillRect(0, 0, WIDTH, HEIGHT);
         // 画像の表示
-        g.drawImage(img, 0, 0,2800,1800, null);
+        g.drawImage(img, 0, 0,1500,800, null);
     }
  
     // 起動時
